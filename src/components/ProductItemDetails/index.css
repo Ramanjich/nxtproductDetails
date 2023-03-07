@@ -1,0 +1,111 @@
+/* Write your CSS here */
+.products-containers {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+.products-details-container {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-self: center;
+}
+.product-image {
+  height: 450px;
+  width: 270px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.p-title {
+  color: #616e7c;
+}
+.p-price {
+  color: #171f46;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container-1 {
+  display: flex;
+  flex-direction: row;
+}
+.r-star-con {
+  background-color: #3b82f6;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.p-rating {
+  padding-top: 0px;
+  color: #ffffff;
+}
+.star-img {
+  margin-top: 17px;
+  height: 15px;
+  width: 15px;
+}
+.p-description {
+  color: #1e293b;
+}
+.span-ele-1 {
+  color: #1e293b;
+  font-weight: bold;
+}
+.span-ele-2 {
+  color: #1e293b;
+  font-weight: bold;
+}
+.add-to-card-btn {
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.count-con {
+  display: flex;
+  flex-direction: row;
+}
+.quantity {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.similar-product-items {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  align-self: center;
+}
+
+/* no-products-found-con */
+
+.no-products-found-con {
+  text-align: center;
+  align-self: center;
+}
+.error-view-img {
+  height: 300px;
+  width: 300px;
+}
+
+.continue-btn {
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.plus-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.minus-btn {
+  border: none;
+  background-color: transparent;
+}

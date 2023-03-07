@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.similar-items {
+  list-style-type: none;
+  width: 30%;
+  margin: 10px;
+  margin-right: 20px;
+}
+.similar-image {
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+}
+.similar-item-heading {
+  font-size: 17px;
+}
+.similar-star-img {
+  height: 15px;
+  width: 15px;
+  margin-top: 0px;
+}
+.similar-p-r-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.p-r-con {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+}
